@@ -5,7 +5,7 @@
 This repository is a basic template for a C/C++ project. The core structure of the project is as below:
 
 ```
-.
+./
 ├── include/
 |   └── customized_header_files
 ├── src/
