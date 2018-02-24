@@ -5,17 +5,17 @@
 This repository is a basic template for a C/C++ project. The core structure of the project is as below:
 
 ```
-./
-├── include/
-|   └── customized_header_files
-├── src/
-|   ├── customized_source_files
+.
+├── include
+|   └── {customized_lib_header_files}
+├── src
+|   ├── {customized_lib_source_files}
 |   ├── CMakeLists.txt
-|   └── tools/
-|       ├── the_main_files
+|   └── tools
+|       ├── {main_files}
 |       └── CMakeLists.txt
-├── data/
-|   └── test_data_etc
+├── data
+|   └── {test_data_etc}
 ├── CMakeLists.txt
 ├── .gitignore
 └── README.md
